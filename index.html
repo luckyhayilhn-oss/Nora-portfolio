@@ -12812,22 +12812,21 @@ function handleJsonImportResult(result, fileName, rawJson) {
     <p class="wfd-reuse">这套流程可以<strong>每周复用</strong> &mdash; 只要养成随手记录的习惯，交给 Claude 就能省掉整理周报的时间</p>
 
     <span class="wfd-sec-label">示例效果</span>
-    <p class="wfd-demo-lede">下面是一段常见场景里的零散记录，点击按钮查看 AI 整理后的周报效果</p>
+    <p class="wfd-demo-lede">下面是一段社媒运营场景里的零散记录，点击按钮查看 AI 整理后的周报效果</p>
 
     <div class="wfd-raw-box">
       <div class="wfd-raw-head">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8Z"/><path d="M14 3v5h5"/></svg>
         原始记录 &middot; weekly_raw.txt
       </div>
-      <pre class="wfd-raw-text">周一 跟进首页改版，和设计对了下配色方案
-开了个需求评审会，确定了新功能排期
-fix: 修复首页加载慢的问题
-周三 继续做首页，大概完成70%了
-同事发消息提醒：记得周五前把A/B测试结果发一下
-git commit: Merge branch 'feature/homepage-v2' into main
-周四 对接接口联调，卡了半天没弄完，明天继续
-周五 补了A/B测试报告，数据还行，转化率有提升
-下周还要开始弄详情页改版，产品那边文档还没给全</pre>
+      <pre class="wfd-raw-text">周一 整理了本周三个平台的数据：Instagram 浏览量150左右，环比持平；YouTube Shorts 800+，有一点回流趋势；TikTok 新号刚起步，200左右曝光，还在冷启动
+同时 Reddit 一直在养号，评论互动坚持做，账号 Karma 值涨到了118
+周二 发了两篇帖子测试：一篇"求装修建议"类的有5k+浏览、30+评论，效果不错；另一篇讲AI生成户型图的被判定触发垃圾过滤器，下架了
+达人合作在跟进：东南亚一个号播放量9000+但点击率一般，日本一个号播放量6000但点击率更高、用户质量更好
+Twitter那边达人大多已读不回，回复率明显比Instagram低，感觉平台调性不太匹配
+周四 新注册的小号还在潜水攒karma，先没敢发帖
+周五 整理了一下这周的埋点点击数据，首页点击量还是个位数，量级偏小
+下周想再筛几个新的KOC联系，Reddit继续养号但先不加发帖频率</pre>
     </div>
 
     <div class="wfd-demo">
@@ -12929,44 +12928,45 @@ git commit: Merge branch 'feature/homepage-v2' into main
   <h1>工作周报</h1>
   <div class="meta-row">
     <span>周期：<b>10月13日 &ndash; 10月17日</b></span>
-    <span>来源：<b>9 条零散记录</b></span>
+    <span>来源：<b>8 条零散记录</b></span>
     <span>生成方式：<b>Claude Skill 自动整理</b></span>
   </div>
 
   <div class="sec">
     <div class="sec-head"><span class="badge good">&#9989; 本周已完成</span></div>
     <ul>
-      <li>完成首页改版的设计对齐，<b>配色方案已确定</b></li>
-      <li>修复首页加载慢的问题，相关改动已合并至 <b>main</b> 分支</li>
-      <li>补充完成 A/B 测试报告，<b>首页转化率较上周有提升</b></li>
+      <li>完成 Instagram / YouTube Shorts / TikTok 三个平台的本周数据汇总，<b>YouTube Shorts 浏览量有一定回流趋势</b></li>
+      <li>Reddit 发布2篇测试帖，其中"求装修建议"类帖子获得 <b>5k+ 浏览、30+ 评论</b>，验证了该类话题的自然流量潜力</li>
+      <li>Reddit 账号 Karma 值提升至 <b>118</b>，账号权重持续积累中</li>
     </ul>
   </div>
 
   <div class="sec">
     <div class="sec-head"><span class="badge info">&#128257; 进行中</span></div>
     <ul>
-      <li>首页改版开发，当前进度约 <b>70%</b></li>
-      <li>与后端接口联调中，预计明天完成</li>
+      <li>两个合作 KOC（东南亚 / 日本）持续观察数据表现，<b>日本账号用户质量更高</b>，可考虑进一步拓展同类型达人</li>
+      <li>Twitter 平台达人联系推进缓慢，大部分处于已读不回状态，回复率明显低于 Instagram</li>
     </ul>
   </div>
 
   <div class="sec">
     <div class="sec-head"><span class="badge warning">&#128197; 下周计划</span></div>
     <ul>
-      <li>继续推进首页改版，目标周中完成并上线</li>
-      <li>启动详情页改版（需等待产品提供完整需求文档）</li>
+      <li>筛选 2&ndash;3 个新的 KOC 做进一步沟通联系</li>
+      <li>Reddit 继续养号积累权重，暂缓提高发帖频率</li>
     </ul>
   </div>
 
   <div class="sec">
     <div class="sec-head"><span class="badge danger">&#9888; 风险与问题</span></div>
     <ul>
-      <li>详情页改版所需的产品文档尚未就绪，<b>可能影响下周排期</b>，已同步给产品跟进</li>
+      <li>一篇涉及 AI 生成内容的帖子触发平台垃圾信息过滤器被下架，发布链接和频率需要更谨慎</li>
+      <li>新注册账号权重爬升速度比预期更慢，距离稳定获得发帖权限还需要时间</li>
     </ul>
   </div>
 
   <footer>
-    本周报由 Claude 根据任务笔记、沟通消息、代码提交记录自动归类整理生成。示例内容为虚构场景，仅用于演示工作流效果。
+    本周报由 Claude 根据零散的平台数据、社群互动记录、达人沟通笔记自动归类整理生成。示例内容为虚构场景，不涉及任何真实公司或项目信息。
   </footer>
 
 </div>
