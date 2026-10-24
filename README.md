@@ -2,6 +2,8 @@
 
 一个专注 AI 原生工作流的产品设计作品集，涵盖 AI 产品案例复盘、AI Workflow demo 与 AI 辅助创意实践。
 
+🔗 在线预览：[nora.luckyvisual.online](https://nora.luckyvisual.online)
+
 [![Live Preview](https://img.shields.io/badge/Live%20Preview-nora.luckyvisual.online-111111?style=flat-square)](https://nora.luckyvisual.online)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
