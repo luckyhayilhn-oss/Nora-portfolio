@@ -12919,6 +12919,14 @@ Twitter那边达人大多已读不回，回复率明显比Instagram低，感觉�
     margin-top: 32px; font-size: 12px; color: var(--text-muted); line-height: 1.7;
     border-top: 1px solid var(--gridline); padding-top: 18px;
   }
+  .sec table { width: 100%; border-collapse: collapse; margin: 0 0 14px; font-size: 13px; }
+  .sec table th, .sec table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--gridline); }
+  .sec table th { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.02em; }
+  .sec table td { color: var(--text-secondary); }
+  .table-tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+  .table-tag.up { background: var(--good-bg); color: var(--good); }
+  .table-tag.flat { background: var(--info-bg); color: var(--info); }
+  .table-tag.new { background: var(--warning-bg); color: var(--warning); }
 </style>
 </head>
 <body>
@@ -12934,8 +12942,15 @@ Twitter那边达人大多已读不回，回复率明显比Instagram低，感觉�
 
   <div class="sec">
     <div class="sec-head"><span class="badge good">&#9989; 本周已完成</span></div>
+    <table>
+      <thead><tr><th>平台</th><th>数据</th><th>情况</th></tr></thead>
+      <tbody>
+        <tr><td>Instagram</td><td>Views 150+</td><td><span class="table-tag flat">环比持平</span></td></tr>
+        <tr><td>YouTube Shorts</td><td>Views 800+</td><td><span class="table-tag up">有回流趋势</span></td></tr>
+        <tr><td>TikTok</td><td>约 200 Views</td><td><span class="table-tag new">冷启动阶段</span></td></tr>
+      </tbody>
+    </table>
     <ul>
-      <li>完成 Instagram / YouTube Shorts / TikTok 三个平台的本周数据汇总，<b>YouTube Shorts 浏览量有一定回流趋势</b></li>
       <li>Reddit 发布2篇测试帖，其中"求装修建议"类帖子获得 <b>5k+ 浏览、30+ 评论</b>，验证了该类话题的自然流量潜力</li>
       <li>Reddit 账号 Karma 值提升至 <b>118</b>，账号权重持续积累中</li>
     </ul>
